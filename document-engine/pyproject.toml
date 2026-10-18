@@ -1,0 +1,19 @@
+[project]
+name = "document-engine"
+version = "0.1.0"
+description = "Structured PDF extraction engine for LibreOffice integration"
+requires-python = ">=3.10"
+dependencies = [
+  "docling",
+  "pymupdf",
+  "python-docx",
+  "fastapi",
+  "uvicorn[standard]",
+  "python-multipart",
+  "pydantic>=2",
+  "requests",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

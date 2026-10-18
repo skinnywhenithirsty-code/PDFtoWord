@@ -1,0 +1,11 @@
+document-engine/.venv/
+
+# Python virtual environments & bytecode
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]

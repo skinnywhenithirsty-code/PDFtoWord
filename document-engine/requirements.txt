@@ -1,0 +1,8 @@
+docling
+pymupdf
+python-docx
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2
+requests
